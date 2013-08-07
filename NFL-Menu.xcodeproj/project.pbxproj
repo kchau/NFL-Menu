@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DE0CDB5170D092400AAA468 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4DE0CDB3170D092400AAA468 /* LICENSE */; };
+		4DE0CDB6170D092400AAA468 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4DE0CDB4170D092400AAA468 /* README.md */; };
+		4DE94B58170BBCEF00879395 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE94B57170BBCEF00879395 /* Cocoa.framework */; };
+		9A68DD2317B2ECE5002FBCD4 /* ARI.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD0317B2ECE5002FBCD4 /* ARI.png */; };
+		9A68DD2417B2ECE5002FBCD4 /* ATL.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD0417B2ECE5002FBCD4 /* ATL.png */; };
+		9A68DD2517B2ECE5002FBCD4 /* BAL.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD0517B2ECE5002FBCD4 /* BAL.png */; };
+		9A68DD2617B2ECE5002FBCD4 /* BUF.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD0617B2ECE5002FBCD4 /* BUF.png */; };
+		9A68DD2717B2ECE5002FBCD4 /* CAR.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD0717B2ECE5002FBCD4 /* CAR.png */; };
+		9A68DD2817B2ECE5002FBCD4 /* CHI.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD0817B2ECE5002FBCD4 /* CHI.png */; };
+		9A68DD2917B2ECE5002FBCD4 /* CIN.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD0917B2ECE5002FBCD4 /* CIN.png */; };
+		9A68DD2A17B2ECE5002FBCD4 /* CLE.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD0A17B2ECE5002FBCD4 /* CLE.png */; };
+		9A68DD2B17B2ECE5002FBCD4 /* DAL.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD0B17B2ECE5002FBCD4 /* DAL.png */; };
+		9A68DD2C17B2ECE5002FBCD4 /* DEN.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD0C17B2ECE5002FBCD4 /* DEN.png */; };
+		9A68DD2D17B2ECE5002FBCD4 /* DET.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD0D17B2ECE5002FBCD4 /* DET.png */; };
+		9A68DD2E17B2ECE5002FBCD4 /* GB.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD0E17B2ECE5002FBCD4 /* GB.png */; };
+		9A68DD2F17B2ECE5002FBCD4 /* HOU.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD0F17B2ECE5002FBCD4 /* HOU.png */; };
+		9A68DD3017B2ECE5002FBCD4 /* IND.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD1017B2ECE5002FBCD4 /* IND.png */; };
+		9A68DD3117B2ECE5002FBCD4 /* JAC.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD1117B2ECE5002FBCD4 /* JAC.png */; };
+		9A68DD3217B2ECE5002FBCD4 /* KC.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD1217B2ECE5002FBCD4 /* KC.png */; };
+		9A68DD3317B2ECE5002FBCD4 /* MIA.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD1317B2ECE5002FBCD4 /* MIA.png */; };
+		9A68DD3417B2ECE5002FBCD4 /* MIN.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD1417B2ECE5002FBCD4 /* MIN.png */; };
+		9A68DD3517B2ECE5002FBCD4 /* NE.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD1517B2ECE5002FBCD4 /* NE.png */; };
+		9A68DD3617B2ECE5002FBCD4 /* NO.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD1617B2ECE5002FBCD4 /* NO.png */; };
+		9A68DD3717B2ECE5002FBCD4 /* NYG.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD1717B2ECE5002FBCD4 /* NYG.png */; };
+		9A68DD3817B2ECE5002FBCD4 /* NYJ.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD1817B2ECE5002FBCD4 /* NYJ.png */; };
+		9A68DD3917B2ECE5002FBCD4 /* OAK.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD1917B2ECE5002FBCD4 /* OAK.png */; };
+		9A68DD3A17B2ECE5002FBCD4 /* PHI.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD1A17B2ECE5002FBCD4 /* PHI.png */; };
+		9A68DD3B17B2ECE5002FBCD4 /* PIT.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD1B17B2ECE5002FBCD4 /* PIT.png */; };
+		9A68DD3C17B2ECE5002FBCD4 /* SD.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD1C17B2ECE5002FBCD4 /* SD.png */; };
+		9A68DD3D17B2ECE5002FBCD4 /* SEA.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD1D17B2ECE5002FBCD4 /* SEA.png */; };
+		9A68DD3E17B2ECE5002FBCD4 /* SF.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD1E17B2ECE5002FBCD4 /* SF.png */; };
+		9A68DD3F17B2ECE5002FBCD4 /* STL.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD1F17B2ECE5002FBCD4 /* STL.png */; };
+		9A68DD4017B2ECE5002FBCD4 /* TB.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD2017B2ECE5002FBCD4 /* TB.png */; };
+		9A68DD4117B2ECE5002FBCD4 /* TEN.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD2117B2ECE5002FBCD4 /* TEN.png */; };
+		9A68DD4217B2ECE5002FBCD4 /* WAS.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD2217B2ECE5002FBCD4 /* WAS.png */; };
+		9A68DD4417B2ED36002FBCD4 /* Football.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD4317B2ED36002FBCD4 /* Football.icns */; };
+		9A68DD4C17B2ED4A002FBCD4 /* SYNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A68DD4617B2ED4A002FBCD4 /* SYNAppDelegate.m */; };
+		9A68DD4D17B2ED4A002FBCD4 /* SYNGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A68DD4817B2ED4A002FBCD4 /* SYNGameView.m */; };
+		9A68DD4E17B2ED4A002FBCD4 /* SYNGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A68DD4A17B2ED4A002FBCD4 /* SYNGameViewController.m */; };
+		9A68DD4F17B2ED4A002FBCD4 /* SYNGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD4B17B2ED4A002FBCD4 /* SYNGameViewController.xib */; };
+		9A68DD5D17B2EDAD002FBCD4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD5B17B2EDAD002FBCD4 /* MainMenu.xib */; };
+		9A68DD6017B2EDE0002FBCD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD5E17B2EDE0002FBCD4 /* InfoPlist.strings */; };
+		9A68DD6217B2EDF3002FBCD4 /* NFL-Menu-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A68DD6117B2EDF3002FBCD4 /* NFL-Menu-Info.plist */; };
+		9A68DD6517B2EE01002FBCD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A68DD6317B2EE01002FBCD4 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DE0CDB3170D092400AAA468 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		4DE0CDB4170D092400AAA468 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
+		4DE94B54170BBCEF00879395 /* NFL-Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NFL-Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE94B57170BBCEF00879395 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4DE94B5A170BBCEF00879395 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4DE94B5B170BBCEF00879395 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4DE94B5C170BBCEF00879395 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9A68DD0317B2ECE5002FBCD4 /* ARI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ARI.png; path = "NFL-Menu/logos/ARI.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD0417B2ECE5002FBCD4 /* ATL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ATL.png; path = "NFL-Menu/logos/ATL.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD0517B2ECE5002FBCD4 /* BAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BAL.png; path = "NFL-Menu/logos/BAL.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD0617B2ECE5002FBCD4 /* BUF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BUF.png; path = "NFL-Menu/logos/BUF.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD0717B2ECE5002FBCD4 /* CAR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CAR.png; path = "NFL-Menu/logos/CAR.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD0817B2ECE5002FBCD4 /* CHI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CHI.png; path = "NFL-Menu/logos/CHI.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD0917B2ECE5002FBCD4 /* CIN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CIN.png; path = "NFL-Menu/logos/CIN.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD0A17B2ECE5002FBCD4 /* CLE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CLE.png; path = "NFL-Menu/logos/CLE.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD0B17B2ECE5002FBCD4 /* DAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DAL.png; path = "NFL-Menu/logos/DAL.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD0C17B2ECE5002FBCD4 /* DEN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DEN.png; path = "NFL-Menu/logos/DEN.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD0D17B2ECE5002FBCD4 /* DET.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DET.png; path = "NFL-Menu/logos/DET.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD0E17B2ECE5002FBCD4 /* GB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GB.png; path = "NFL-Menu/logos/GB.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD0F17B2ECE5002FBCD4 /* HOU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HOU.png; path = "NFL-Menu/logos/HOU.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD1017B2ECE5002FBCD4 /* IND.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IND.png; path = "NFL-Menu/logos/IND.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD1117B2ECE5002FBCD4 /* JAC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = JAC.png; path = "NFL-Menu/logos/JAC.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD1217B2ECE5002FBCD4 /* KC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = KC.png; path = "NFL-Menu/logos/KC.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD1317B2ECE5002FBCD4 /* MIA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MIA.png; path = "NFL-Menu/logos/MIA.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD1417B2ECE5002FBCD4 /* MIN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MIN.png; path = "NFL-Menu/logos/MIN.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD1517B2ECE5002FBCD4 /* NE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NE.png; path = "NFL-Menu/logos/NE.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD1617B2ECE5002FBCD4 /* NO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NO.png; path = "NFL-Menu/logos/NO.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD1717B2ECE5002FBCD4 /* NYG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NYG.png; path = "NFL-Menu/logos/NYG.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD1817B2ECE5002FBCD4 /* NYJ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NYJ.png; path = "NFL-Menu/logos/NYJ.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD1917B2ECE5002FBCD4 /* OAK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OAK.png; path = "NFL-Menu/logos/OAK.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD1A17B2ECE5002FBCD4 /* PHI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PHI.png; path = "NFL-Menu/logos/PHI.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD1B17B2ECE5002FBCD4 /* PIT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PIT.png; path = "NFL-Menu/logos/PIT.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD1C17B2ECE5002FBCD4 /* SD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SD.png; path = "NFL-Menu/logos/SD.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD1D17B2ECE5002FBCD4 /* SEA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SEA.png; path = "NFL-Menu/logos/SEA.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD1E17B2ECE5002FBCD4 /* SF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SF.png; path = "NFL-Menu/logos/SF.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD1F17B2ECE5002FBCD4 /* STL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = STL.png; path = "NFL-Menu/logos/STL.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD2017B2ECE5002FBCD4 /* TB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TB.png; path = "NFL-Menu/logos/TB.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD2117B2ECE5002FBCD4 /* TEN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TEN.png; path = "NFL-Menu/logos/TEN.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD2217B2ECE5002FBCD4 /* WAS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WAS.png; path = "NFL-Menu/logos/WAS.png"; sourceTree = SOURCE_ROOT; };
+		9A68DD4317B2ED36002FBCD4 /* Football.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Football.icns; sourceTree = "<group>"; };
+		9A68DD4517B2ED4A002FBCD4 /* SYNAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SYNAppDelegate.h; path = "NFL-Menu/SYNAppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		9A68DD4617B2ED4A002FBCD4 /* SYNAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SYNAppDelegate.m; path = "NFL-Menu/SYNAppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		9A68DD4717B2ED4A002FBCD4 /* SYNGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SYNGameView.h; path = "NFL-Menu/SYNGameView.h"; sourceTree = SOURCE_ROOT; };
+		9A68DD4817B2ED4A002FBCD4 /* SYNGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SYNGameView.m; path = "NFL-Menu/SYNGameView.m"; sourceTree = SOURCE_ROOT; };
+		9A68DD4917B2ED4A002FBCD4 /* SYNGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SYNGameViewController.h; path = "NFL-Menu/SYNGameViewController.h"; sourceTree = SOURCE_ROOT; };
+		9A68DD4A17B2ED4A002FBCD4 /* SYNGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SYNGameViewController.m; path = "NFL-Menu/SYNGameViewController.m"; sourceTree = SOURCE_ROOT; };
+		9A68DD4B17B2ED4A002FBCD4 /* SYNGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SYNGameViewController.xib; path = "NFL-Menu/SYNGameViewController.xib"; sourceTree = SOURCE_ROOT; };
+		9A68DD5C17B2EDAD002FBCD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "NFL-Menu/en.lproj/MainMenu.xib"; sourceTree = SOURCE_ROOT; };
+		9A68DD5F17B2EDE0002FBCD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "NFL-Menu/en.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
+		9A68DD6117B2EDF3002FBCD4 /* NFL-Menu-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "NFL-Menu-Info.plist"; path = "NFL-Menu/NFL-Menu-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9A68DD6317B2EE01002FBCD4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "NFL-Menu/main.m"; sourceTree = SOURCE_ROOT; };
+		9A68DD6417B2EE01002FBCD4 /* NFL-Menu-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NFL-Menu-Prefix.pch"; path = "NFL-Menu/NFL-Menu-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DE94B51170BBCEF00879395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE94B58170BBCEF00879395 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DE94B4B170BBCEF00879395 = {
+			isa = PBXGroup;
+			children = (
+				9A68DD4317B2ED36002FBCD4 /* Football.icns */,
+				4DE94B5D170BBCEF00879395 /* NFL-Menu */,
+				4DE94B56170BBCEF00879395 /* Frameworks */,
+				4DE94B55170BBCEF00879395 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DE94B55170BBCEF00879395 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DE94B54170BBCEF00879395 /* NFL-Menu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DE94B56170BBCEF00879395 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DE94B57170BBCEF00879395 /* Cocoa.framework */,
+				4DE94B59170BBCEF00879395 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DE94B59170BBCEF00879395 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DE94B5A170BBCEF00879395 /* AppKit.framework */,
+				4DE94B5B170BBCEF00879395 /* CoreData.framework */,
+				4DE94B5C170BBCEF00879395 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4DE94B5D170BBCEF00879395 /* NFL-Menu */ = {
+			isa = PBXGroup;
+			children = (
+				9A68DD5B17B2EDAD002FBCD4 /* MainMenu.xib */,
+				9A68DD4517B2ED4A002FBCD4 /* SYNAppDelegate.h */,
+				9A68DD4617B2ED4A002FBCD4 /* SYNAppDelegate.m */,
+				9A68DD4717B2ED4A002FBCD4 /* SYNGameView.h */,
+				9A68DD4817B2ED4A002FBCD4 /* SYNGameView.m */,
+				9A68DD4917B2ED4A002FBCD4 /* SYNGameViewController.h */,
+				9A68DD4A17B2ED4A002FBCD4 /* SYNGameViewController.m */,
+				9A68DD4B17B2ED4A002FBCD4 /* SYNGameViewController.xib */,
+				4DE94B5E170BBCEF00879395 /* Supporting Files */,
+			);
+			name = "NFL-Menu";
+			path = "NFL-Menu";
+			sourceTree = "<group>";
+		};
+		4DE94B5E170BBCEF00879395 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DE0CDB4170D092400AAA468 /* README.md */,
+				9A68DD5E17B2EDE0002FBCD4 /* InfoPlist.strings */,
+				4DE94B76170BC4C700879395 /* logos */,
+				4DE0CDB3170D092400AAA468 /* LICENSE */,
+				9A68DD6317B2EE01002FBCD4 /* main.m */,
+				9A68DD6117B2EDF3002FBCD4 /* NFL-Menu-Info.plist */,
+				9A68DD6417B2EE01002FBCD4 /* NFL-Menu-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DE94B76170BC4C700879395 /* logos */ = {
+			isa = PBXGroup;
+			children = (
+				9A68DD0317B2ECE5002FBCD4 /* ARI.png */,
+				9A68DD0417B2ECE5002FBCD4 /* ATL.png */,
+				9A68DD0517B2ECE5002FBCD4 /* BAL.png */,
+				9A68DD0617B2ECE5002FBCD4 /* BUF.png */,
+				9A68DD0717B2ECE5002FBCD4 /* CAR.png */,
+				9A68DD0817B2ECE5002FBCD4 /* CHI.png */,
+				9A68DD0917B2ECE5002FBCD4 /* CIN.png */,
+				9A68DD0A17B2ECE5002FBCD4 /* CLE.png */,
+				9A68DD0B17B2ECE5002FBCD4 /* DAL.png */,
+				9A68DD0C17B2ECE5002FBCD4 /* DEN.png */,
+				9A68DD0D17B2ECE5002FBCD4 /* DET.png */,
+				9A68DD0E17B2ECE5002FBCD4 /* GB.png */,
+				9A68DD0F17B2ECE5002FBCD4 /* HOU.png */,
+				9A68DD1017B2ECE5002FBCD4 /* IND.png */,
+				9A68DD1117B2ECE5002FBCD4 /* JAC.png */,
+				9A68DD1217B2ECE5002FBCD4 /* KC.png */,
+				9A68DD1317B2ECE5002FBCD4 /* MIA.png */,
+				9A68DD1417B2ECE5002FBCD4 /* MIN.png */,
+				9A68DD1517B2ECE5002FBCD4 /* NE.png */,
+				9A68DD1617B2ECE5002FBCD4 /* NO.png */,
+				9A68DD1717B2ECE5002FBCD4 /* NYG.png */,
+				9A68DD1817B2ECE5002FBCD4 /* NYJ.png */,
+				9A68DD1917B2ECE5002FBCD4 /* OAK.png */,
+				9A68DD1A17B2ECE5002FBCD4 /* PHI.png */,
+				9A68DD1B17B2ECE5002FBCD4 /* PIT.png */,
+				9A68DD1C17B2ECE5002FBCD4 /* SD.png */,
+				9A68DD1D17B2ECE5002FBCD4 /* SEA.png */,
+				9A68DD1E17B2ECE5002FBCD4 /* SF.png */,
+				9A68DD1F17B2ECE5002FBCD4 /* STL.png */,
+				9A68DD2017B2ECE5002FBCD4 /* TB.png */,
+				9A68DD2117B2ECE5002FBCD4 /* TEN.png */,
+				9A68DD2217B2ECE5002FBCD4 /* WAS.png */,
+			);
+			path = logos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DE94B53170BBCEF00879395 /* NFL-Menu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE94B71170BBCEF00879395 /* Build configuration list for PBXNativeTarget "NFL-Menu" */;
+			buildPhases = (
+				4DE94B50170BBCEF00879395 /* Sources */,
+				4DE94B51170BBCEF00879395 /* Frameworks */,
+				4DE94B52170BBCEF00879395 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NFL-Menu";
+			productName = "NFL-Menu";
+			productReference = 4DE94B54170BBCEF00879395 /* NFL-Menu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DE94B4C170BBCEF00879395 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SYN;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Syntaxi;
+			};
+			buildConfigurationList = 4DE94B4F170BBCEF00879395 /* Build configuration list for PBXProject "NFL-Menu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4DE94B4B170BBCEF00879395;
+			productRefGroup = 4DE94B55170BBCEF00879395 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DE94B53170BBCEF00879395 /* NFL-Menu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DE94B52170BBCEF00879395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE0CDB5170D092400AAA468 /* LICENSE in Resources */,
+				4DE0CDB6170D092400AAA468 /* README.md in Resources */,
+				9A68DD2317B2ECE5002FBCD4 /* ARI.png in Resources */,
+				9A68DD2417B2ECE5002FBCD4 /* ATL.png in Resources */,
+				9A68DD2517B2ECE5002FBCD4 /* BAL.png in Resources */,
+				9A68DD2617B2ECE5002FBCD4 /* BUF.png in Resources */,
+				9A68DD2717B2ECE5002FBCD4 /* CAR.png in Resources */,
+				9A68DD2817B2ECE5002FBCD4 /* CHI.png in Resources */,
+				9A68DD2917B2ECE5002FBCD4 /* CIN.png in Resources */,
+				9A68DD2A17B2ECE5002FBCD4 /* CLE.png in Resources */,
+				9A68DD2B17B2ECE5002FBCD4 /* DAL.png in Resources */,
+				9A68DD2C17B2ECE5002FBCD4 /* DEN.png in Resources */,
+				9A68DD2D17B2ECE5002FBCD4 /* DET.png in Resources */,
+				9A68DD2E17B2ECE5002FBCD4 /* GB.png in Resources */,
+				9A68DD2F17B2ECE5002FBCD4 /* HOU.png in Resources */,
+				9A68DD3017B2ECE5002FBCD4 /* IND.png in Resources */,
+				9A68DD3117B2ECE5002FBCD4 /* JAC.png in Resources */,
+				9A68DD3217B2ECE5002FBCD4 /* KC.png in Resources */,
+				9A68DD3317B2ECE5002FBCD4 /* MIA.png in Resources */,
+				9A68DD3417B2ECE5002FBCD4 /* MIN.png in Resources */,
+				9A68DD3517B2ECE5002FBCD4 /* NE.png in Resources */,
+				9A68DD3617B2ECE5002FBCD4 /* NO.png in Resources */,
+				9A68DD3717B2ECE5002FBCD4 /* NYG.png in Resources */,
+				9A68DD3817B2ECE5002FBCD4 /* NYJ.png in Resources */,
+				9A68DD3917B2ECE5002FBCD4 /* OAK.png in Resources */,
+				9A68DD3A17B2ECE5002FBCD4 /* PHI.png in Resources */,
+				9A68DD3B17B2ECE5002FBCD4 /* PIT.png in Resources */,
+				9A68DD3C17B2ECE5002FBCD4 /* SD.png in Resources */,
+				9A68DD3D17B2ECE5002FBCD4 /* SEA.png in Resources */,
+				9A68DD3E17B2ECE5002FBCD4 /* SF.png in Resources */,
+				9A68DD3F17B2ECE5002FBCD4 /* STL.png in Resources */,
+				9A68DD4017B2ECE5002FBCD4 /* TB.png in Resources */,
+				9A68DD4117B2ECE5002FBCD4 /* TEN.png in Resources */,
+				9A68DD4217B2ECE5002FBCD4 /* WAS.png in Resources */,
+				9A68DD4417B2ED36002FBCD4 /* Football.icns in Resources */,
+				9A68DD4F17B2ED4A002FBCD4 /* SYNGameViewController.xib in Resources */,
+				9A68DD5D17B2EDAD002FBCD4 /* MainMenu.xib in Resources */,
+				9A68DD6017B2EDE0002FBCD4 /* InfoPlist.strings in Resources */,
+				9A68DD6217B2EDF3002FBCD4 /* NFL-Menu-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DE94B50170BBCEF00879395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A68DD4C17B2ED4A002FBCD4 /* SYNAppDelegate.m in Sources */,
+				9A68DD4D17B2ED4A002FBCD4 /* SYNGameView.m in Sources */,
+				9A68DD4E17B2ED4A002FBCD4 /* SYNGameViewController.m in Sources */,
+				9A68DD6517B2EE01002FBCD4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A68DD5B17B2EDAD002FBCD4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A68DD5C17B2EDAD002FBCD4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		9A68DD5E17B2EDE0002FBCD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A68DD5F17B2EDE0002FBCD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DE94B6F170BBCEF00879395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4DE94B70170BBCEF00879395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4DE94B72170BBCEF00879395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NFL-Menu/NFL-Menu-Prefix.pch";
+				INFOPLIST_FILE = "NFL-Menu/NFL-Menu-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "NFL-Menu";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4DE94B73170BBCEF00879395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NFL-Menu/NFL-Menu-Prefix.pch";
+				INFOPLIST_FILE = "NFL-Menu/NFL-Menu-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "NFL-Menu";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DE94B4F170BBCEF00879395 /* Build configuration list for PBXProject "NFL-Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE94B6F170BBCEF00879395 /* Debug */,
+				4DE94B70170BBCEF00879395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE94B71170BBCEF00879395 /* Build configuration list for PBXNativeTarget "NFL-Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE94B72170BBCEF00879395 /* Debug */,
+				4DE94B73170BBCEF00879395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DE94B4C170BBCEF00879395 /* Project object */;
+}
