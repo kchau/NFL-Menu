@@ -53,19 +53,23 @@
         [scoreBox setSegmentCount:1];
         [scoreBox setLabel:[NSString stringWithFormat:@"%@ %@", raw[@"d"], raw[@"t"]] forSegment:0];
         [scoreBox setWidth:96 forSegment:0];
-    } else if ([raw[@"q"] isEqualToString:@"H"]) {
-        [scoreBox setLabel:[NSString stringWithFormat:@"%@", raw[@"vs"]] forSegment:0];
-        [scoreBox setLabel:[NSString stringWithFormat:@"%@", raw[@"hs"]] forSegment:2];
-        [scoreBox setLabel:@"Halftime" forSegment:1];
     } else {
+        if ([raw[@"q"] isEqualToString:@"H"]) {
+            [scoreBox setLabel:@"Halftime" forSegment:1];
+        } else if ([raw[@"q"] isEqualToString:@"F"]) {
+            [scoreBox setLabel:@"Final" forSegment:1];
+        } else {
+            [scoreBox setLabel:[NSString stringWithFormat:@"%@%@ %@", raw[@"q"], [self ordinalFor:raw[@"q"]], raw[@"k"]] forSegment:1];
+        }
         [scoreBox setLabel:[NSString stringWithFormat:@"%@", raw[@"vs"]] forSegment:0];
         [scoreBox setLabel:[NSString stringWithFormat:@"%@", raw[@"hs"]] forSegment:2];
-        [scoreBox setLabel:[NSString stringWithFormat:@"%@%@ %@", raw[@"q"], [self ordinalFor:raw[@"q"]], raw[@"k"]] forSegment:1];
 
-        if ([raw[@"p"] isEqualToString:raw[@"v"]]) {
-            [scoreBox setSelected:YES forSegment:0];
-        } else {
-            [scoreBox setSelected:YES forSegment:2];
+        if ([raw objectForKey:@"p"]) {
+            if ([raw[@"p"] isEqualToString:raw[@"v"]]) {
+                [scoreBox setSelected:YES forSegment:0];
+            } else {
+                [scoreBox setSelected:YES forSegment:2];
+            }
         }
     }
 }
