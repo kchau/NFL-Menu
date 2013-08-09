@@ -79,19 +79,18 @@ static SYNAppDelegate *_sharedInstance;
                         initWithTitle:[NSString stringWithFormat:@"%@ @ %@", gamedict[@"v"], gamedict[@"h"]]
                         action:nil
                         keyEquivalent:@""];
-    
+
     SYNGameViewController *gv = [[SYNGameViewController alloc] init];
     [game setView:gv.view];
     [game setEnabled:YES];
     [game setTag:0];
     [gv setRaw:gamedict];
     [statusMenu insertItem:game atIndex:0];
-
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    [NSTimer scheduledTimerWithTimeInterval:(60.0 * 2) target:self selector:@selector(updateGames:) userInfo:nil repeats:YES];
+    [NSTimer scheduledTimerWithTimeInterval:(60.0) target:self selector:@selector(updateGames:) userInfo:nil repeats:YES];
     [self updateGames:nil];
 
 }
