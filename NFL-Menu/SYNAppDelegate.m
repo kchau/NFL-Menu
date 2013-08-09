@@ -46,7 +46,7 @@ static SYNAppDelegate *_sharedInstance;
 }
 
 -(IBAction)updateGames:(id)sender {
-    NSString *url = @"http://www.nfl.com/liveupdate/scorestrip/ss.json";
+    NSString *url = @"http://xml-2-json.herokuapp.com/?xml=http://www.nfl.com/liveupdate/scorestrip/ss.xml";
     [self parseURL:url];
 }
 
@@ -54,13 +54,12 @@ static SYNAppDelegate *_sharedInstance;
     NSError *error = nil;
     NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:theURL]];
     NSDictionary *parsed = [NSJSONSerialization JSONObjectWithData: data options: NSJSONReadingMutableContainers error: &error];
-    NSArray *json_games = (NSMutableArray *)parsed[@"gms"];
+    NSArray *json_games = (NSMutableArray *)parsed[@"ss"][@"gms"][@"g"];
 
     SYNAppDelegate *delegate = [SYNAppDelegate sharedInstance];
-    delegate.week = parsed[@"w"];
-    delegate.year = parsed[@"y"];
+    delegate.week = parsed[@"ss"][@"gms"][@"w"];
+    delegate.year = parsed[@"ss"][@"gms"][@"y"];
     delegate.week_type = parsed[@"t"];
-    NSLog(@"%@, %@, %@", delegate.year, delegate.week_type, delegate.week);
     
     for (NSMenuItem *item in [statusMenu itemArray]){
         if(item.tag >= kEndGamesList){
