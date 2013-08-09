@@ -60,6 +60,17 @@ static SYNAppDelegate *_sharedInstance;
     delegate.week = parsed[@"ss"][@"gms"][@"w"];
     delegate.year = parsed[@"ss"][@"gms"][@"y"];
     delegate.week_type = parsed[@"t"];
+
+    //Show big event alert notification
+    NSDictionary *event = (NSDictionary *)parsed[@"ss"][@"bps"][@"b"];
+    if (event) {
+        NSUserNotification *notification = [[NSUserNotification alloc] init];
+        [notification setTitle:@"NFL"];
+        [notification setSubtitle:event[@"abbr"]];
+        [notification setInformativeText:event[@"x"]];
+
+        [[NSUserNotificationCenter defaultUserNotificationCenter] deliverNotification:notification];
+    }
     
     for (NSMenuItem *item in [statusMenu itemArray]){
         if(item.tag >= kEndGamesList){
